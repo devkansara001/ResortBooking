@@ -1,0 +1,24 @@
+{
+    "name": "grand-oasis-resort",
+    "description": "A web application for The Grand Oasis Resort, featuring user authentication and MongoDB integration.",
+    "type": "project",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-mongodb": "*",
+        "mongodb/mongodb": "^1.10",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
